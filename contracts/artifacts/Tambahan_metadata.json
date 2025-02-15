@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"name": "tambah",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "hasil",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "tambah",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "hasil",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FunctionContract.sol": "Tambahan"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FunctionContract.sol": {
+			"keccak256": "0x2cc501ccf77033a7ee81db596e54dd456d2c0b5d32946f2f3993618b64f4fb4e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://588a60c5cf85b5a38bc37b3e613303707d36f787b469221488f8e8a14e0718dc",
+				"dweb:/ipfs/QmW77kMUwQUNGv3piFqPJYHusTRgBqfrj4BPHqdgNrZZJj"
+			]
+		}
+	},
+	"version": 1
+}

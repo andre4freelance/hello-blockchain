@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getCallerAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "caller",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AddressContract.sol": "PrintAddressContract2"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AddressContract.sol": {
+			"keccak256": "0x5d95f0a9cddb63dcbb4f393df9f769ac13e922519b887826087cfc94646a552b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://46e29d13ab07f3850b4fb72996d52626eed2bb03136f85e7ef82cb49b5f307c4",
+				"dweb:/ipfs/QmQbjfE32cYGS36V1ZxDPQRyfHLiddJqtxaAwETPBhf4SK"
+			]
+		}
+	},
+	"version": 1
+}
