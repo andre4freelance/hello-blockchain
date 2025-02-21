@@ -6,36 +6,27 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getContractBalance",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getReceivedAmount",
+				"name": "kalkulasi",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "hash",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "receiveEther",
-				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -52,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/FunctionContract.sol": "PayableContract"
+			"contracts/Data.sol": "DataMe"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -66,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/FunctionContract.sol": {
-			"keccak256": "0x2cc501ccf77033a7ee81db596e54dd456d2c0b5d32946f2f3993618b64f4fb4e",
+		"contracts/Data.sol": {
+			"keccak256": "0xb12f4832b26b5065dad36837447c781dc066555fcf0bdd4feec076e786cbddc8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://588a60c5cf85b5a38bc37b3e613303707d36f787b469221488f8e8a14e0718dc",
-				"dweb:/ipfs/QmW77kMUwQUNGv3piFqPJYHusTRgBqfrj4BPHqdgNrZZJj"
+				"bzz-raw://db40e609d0c9a3811f3afd9c232e78b49dc3ab4011726abe1c3cd8fa2688d533",
+				"dweb:/ipfs/QmdjVXnt3tUdc2FwZusxkTknAGryF4WzJqZU21vap5FqNe"
 			]
 		}
 	},
