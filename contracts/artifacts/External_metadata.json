@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "readData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Contract-bygpt.sol": "External"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Contract-bygpt.sol": {
+			"keccak256": "0x462d10144265d7b15697e54e87ab1836c368c4da5f8c48bd4a9e103425d607ac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b4454146436286ca5dab831773c1286ce405a1ed79b2fab867982e3c3f02cd80",
+				"dweb:/ipfs/QmcFZFEf6dXfspErGJwntwvWTaGkCcGdWs3ZzCQJ2etBS2"
+			]
+		}
+	},
+	"version": 1
+}

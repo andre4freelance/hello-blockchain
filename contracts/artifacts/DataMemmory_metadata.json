@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "kalkulasi",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "hash",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Data.sol": "DataMemmory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Data.sol": {
+			"keccak256": "0x011b65de863135b469fdcb5c486fa4c6e59c5e03bace51e6a87efedd1868bc2f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff1135cb056cd3f87e6e3a9e6c582588a6a2657d5805470d7158bf4c69df62a7",
+				"dweb:/ipfs/QmTgcpT4PSdH6RaVPa7EryhDdaqVQW89ChMURnK2fJazBm"
+			]
+		}
+	},
+	"version": 1
+}
